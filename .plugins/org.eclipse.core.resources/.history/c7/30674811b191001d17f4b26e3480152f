@@ -1,0 +1,11 @@
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Oracle settings
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+spring.datasource.username=rushi
+spring.datasource.password=9890074833
+spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.Oracle10gDialect
+server.port = 8081  
+log4j.appender.file.File=log-application.log
